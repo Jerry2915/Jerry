@@ -33,8 +33,8 @@ public class Application {
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
-        BoyFriend boyFriend = new BoyFriend("oRDsj5-Sig_n6E05d4ShyG6N5u_s",
-                "广东省", "肇庆市", "2001-08-07", "2016-09-01", "vK6Kyex3c87LqTe_P7d_3pBDSB9k4YI3nsHhbLKCQIY");
+        BoyFriend boyFriend = new BoyFriend("Jerry",
+                "广东省", "肇庆市", "2001-08-07", "2016-09-01", "oRDsj5-Sig_n6E05d4ShyG6N5u_s");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
     }
 
