@@ -34,12 +34,17 @@ public class Application {
 
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
         BoyFriend boyFriend = new BoyFriend("Jerry",
-                "广东省", "肇庆市", "2001-08-07", "2016-09-01", "oRDsj5-Sig_n6E05d4ShyG6N5u_s", "Bf0AYI5IfxNMhcgLXKf556b3RpHS-gofjwkkhghtc0Y");
+                "广东省", "肇庆市", "2001-08-07", "2016-09-01", "oRDsj5-Sig_n6E05d4ShyG6N5u_s");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
         
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
         BoyFriend boyFriend2 = new BoyFriend("宋亚轩未婚妻",
                 "广东省", "肇庆市", "2008-08-08", "2021-04-16", "oRDsj5wJkYeBFJzrnEajbqwoZ02Q", "Bf0AYI5IfxNMhcgLXKf556b3RpHS-gofjwkkhghtc0Y");
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
+        
+                // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
+        BoyFriend boyFriend3 = new BoyFriend("宋亚轩未婚妻",
+                "陕西省", "西安市", "1996-12-26", "2021-04-16", "oRDsj5wJkYeBFJzrwoZ02Q", "AMPlxxT0alrslmA8fGwnrJjoBTqJRBIW53LviEzQdks");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
     }
 
