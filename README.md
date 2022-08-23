@@ -6,14 +6,6 @@
 
 `友情提示：master分支github actions执行规则是每天早上7点自动执行`
 `如果需要监听推送执行 请切换workflow_on_push分支`
-
-为了照顾小白，特地写了一篇完整详细的详细教程放到了我的博客以供参考
-[点击访问我的博客](https://blog.ofpp.cn)
-
-由于 博客服务器托管在GitPage节点在国外且前段时间cdn到期了 可能会访问比较慢～
-
-![效果展示](https://static.marketup.cn/marketup/company/151/2022/822/cu/2809847835962369/20220822233123039-kesngm1h01iu.jpeg)
- 
  
 #### 公众号模板内容 可以根据自己的需要变更内容
 ```text
