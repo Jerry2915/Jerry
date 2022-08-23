@@ -3,7 +3,7 @@ name: CareUEveryDay Cron CI
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   build:
