@@ -1,4 +1,4 @@
-name: CareUEveryDay Cron CI
+name: Jerry Cron CI
 
 on:
   push:
